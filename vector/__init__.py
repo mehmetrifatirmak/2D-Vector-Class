@@ -52,11 +52,17 @@ class Vector:
     def addMultbyScaler(self, vector, k):
 	    return Vector(self.x + k*vector.x, self.y + k*vector.y)
 
-def distance(vector1, vector2):
-    return (vector1.subtract(vector2)).length()
+    @classmethod
+    def distance(cls, vector1, vector2):
+        return (vector1.subtract(vector2)).length()
 
-def angleRad(vector1, vector2):
-    return math.acos(vector1.dotProduct(vector2) / (vector1.length() * vector2.length()))
+    @classmethod
+    def angleRad(cls, vector1, vector2):
+        return math.acos(vector1.scalerProduct(vector2) / (vector1.length() * vector2.length()))
+    
+    @classmethod
+    def angleDeg(cls, vector1, vector2):
+        return math.degrees(Vector.angleRad(vector1, vector2))
 
 def Random(min, max):
     return math.floor(random.random()*(max - min + 1)) + min
