@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
   
 setuptools.setup(
   name='classofvector2d',
-  version='1.0.0',
+  version='1.0.4',
   author='Mehmet R. Irmak',
   author_email="mehmet.r.river@gmail.com",
   description='Prepared to help graphics coding for Python',
