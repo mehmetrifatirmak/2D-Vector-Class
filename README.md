@@ -1,6 +1,8 @@
 
 ###################################
+
 #######     HELLO WORLD     #######
+
 ###################################
 
 This README.md file was generated on 2020/12/05 
@@ -8,8 +10,11 @@ by MEHMET R. IRMAK
 
 
 ###################
+
 GENERAL INFORMATION
+
 ###################
+
 
 This python library uses position vector handling and
 to help compute physical vectorial motion in mechanical systems. In addition, 
@@ -26,8 +31,11 @@ e-mail: mehmet.r.river@gmail.com
 
 
 ####################
+
 DATA & FILE OVERVIEW
+
 ####################
+
 
 
  
@@ -53,7 +61,9 @@ Directory of Files:
 
 
 ##########################
+
 METHODOLOGICAL INFORMATION
+
 ##########################
 
 
