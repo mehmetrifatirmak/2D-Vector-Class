@@ -120,6 +120,7 @@ angleRad(vector1, vector2):the angle between two vectors.
 Random(min, max):to create a random number between two integer numbers
 
 to install: pip install classofvector2d
+
 to use: from vector import Vector 
 
 
